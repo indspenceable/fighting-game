@@ -39,19 +39,24 @@ public class ActiveAnimator : MonoBehaviour {
 			return NextFrame();
 		}
 	}
-	
+
+
 	Facing direction = Facing.LEFT;
 
 	public void SetFacing(Facing direction) {
 		this.direction = direction;
 	}
 
-	private SealedFrame NextFrame() {
+	public SealedFrame NextFrame() {
 		DisableCurrentFrame();
 		SealedAnimation sa = GetAnimationById(currentAnimation);
 		int numberOfFrames = sa.frames.Length;
 		if (currentFrame + 1 == numberOfFrames) {
-			currentFrame = sa.loopBackFrame;
+			if (sa.followingAnimation == sa.id) {
+				currentFrame = sa.loopBackFrame;
+			} else {
+				return StartAnimationOrNext(sa.followingAnimation);
+			}
 		} else {
 			currentFrame += 1;
 		}

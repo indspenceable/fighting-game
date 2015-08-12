@@ -40,6 +40,14 @@ public class CharacterAnimation : MonoBehaviour {
 
 	public void DuplicateFrame (int currentlySelectedFrameIndex)
 	{
+		List<Frame> frames = GetFrames();
+		foreach (Frame f in frames.Where(f => f.index > currentlySelectedFrameIndex)) {
+			f.index += 1;
+		}
+		GameObject go = Instantiate(frames[currentlySelectedFrameIndex].gameObject) as GameObject;
+		go.transform.parent = transform;
+		Frame newFrame = go.GetComponent<Frame>();
+		newFrame.index += 1;
 	}
 
 	void BuildFrameWithIndex(int index) {

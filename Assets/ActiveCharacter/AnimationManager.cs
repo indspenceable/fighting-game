@@ -13,7 +13,7 @@ public class AnimationManager : MonoBehaviour {
 	public bool grounded;
 	public bool crouching;
 	public bool attacking;
-
+	/*
 	public SealedFrame Next() {
 		AnimationID id = AnimationID.IDLE;
 		if (grounded) {
@@ -42,4 +42,5 @@ public class AnimationManager : MonoBehaviour {
 		}
 		return animationBackend.StartAnimation(id);
 	}
+	*/
 }

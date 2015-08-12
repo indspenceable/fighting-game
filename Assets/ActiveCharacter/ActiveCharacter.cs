@@ -2,124 +2,236 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[RequireComponent (typeof(AnimationManager))]
+[RequireComponent (typeof(ActiveAnimator))]
 [RequireComponent (typeof(CharacterController))]
-public class ActiveCharacter : MonoBehaviour {
-	private AnimationManager animator;
+public class ActiveCharacter : MonoBehaviour
+{
+	private ActiveAnimator animator;
 	private CharacterController controls;
 	public MatchManager match;
 	
-	void Start() {
-		animator = gameObject.GetComponent<AnimationManager>();
-		animator.Init();
-		currentFrame = animator.Next();
+	public void Boot (MatchManager matchManager)
+	{
+		gameObject.SetActive(true);
+		this.match = matchManager;
+		animator = gameObject.GetComponent<ActiveAnimator> ();
+		animator.EnableAllAnimations ();
+		currentFrame = animator.StartAnimationOrNext (AnimationID.IDLE);
 
-		controls = GetComponent<CharacterController>();
+		controls = GetComponent<CharacterController> ();
 	}
-
-	Vector2 velocity = new Vector2(0, 0);
+	
+	Vector2 velocity = new Vector2 (0, 0);
 	bool grounded;
 	bool crouching;
 	bool attacking;
-	[SerializeField] SealedFrame currentFrame;
-	List<Hitbox> hitsThisFrame = new List<Hitbox>();
-
-	void NormalizeVelocity() {
-		if (grounded) {
-			velocity.x = velocity.x * 0.4f; 
-			if (Mathf.Abs(velocity.x) < 0.1f) {
-				velocity.x = 0f;
-			}
-		} else {
-			velocity.x = velocity.x * 0.8f; 
-			if (Mathf.Abs(velocity.x) < 0.1f) {
-				velocity.x = 0f;
-			}
+	Facing direction;
+	[SerializeField]
+	SealedFrame
+		currentFrame;
+	List<Hitbox> hitsThisFrame = new List<Hitbox> ();
+	
+	void ApplyTraction ()
+	{
+		if (grounded &&
+		    (velocity.x > 0 && controls.Horizontal() <= 0 ||
+		    velocity.x < 0 && controls.Horizontal() >= 0)) {
+			velocity.x = velocity.x * (grounded ? 0.4f : 1f);
+		}
+		if (Mathf.Abs (velocity.x) < 0.1f) {
+			velocity.x = 0f;
 		}
 	}
 
-	public void NextFrame() {
-		animator.xv = velocity.x;
-		animator.yv = velocity.y;
-		animator.grounded = grounded;
-		animator.crouching = crouching;
-		animator.attacking = attacking;
-		currentFrame = animator.Next();
+	float GROUNDED_VELOCITY_MAX = 5f;
+	float LimitToMaxGroundedVelocity(float currentVelocity) {
+		if (currentVelocity > GROUNDED_VELOCITY_MAX) {
+			return GROUNDED_VELOCITY_MAX;
+		} else if (currentVelocity < -GROUNDED_VELOCITY_MAX) {
+			return -GROUNDED_VELOCITY_MAX;
+		}
+		return currentVelocity;
 	}
-	public void ApplyHits() {
+
+	float AIR_VELOCITY_MAX = 4f;
+	float LimitToMaxAirVelocity(float currentVelocity) {
+		if (currentVelocity > AIR_VELOCITY_MAX) {
+			return AIR_VELOCITY_MAX;
+		} else if (currentVelocity < -AIR_VELOCITY_MAX) {
+			return -AIR_VELOCITY_MAX;
+		}
+		return currentVelocity;
+	}
+
+	public void NextFrames ()
+	{
+		//    animator.xv = velocity.x;
+		//    animator.yv = velocity.y;
+		//    animator.grounded = grounded;
+		//    animator.crouching = crouching;
+		//    animator.attacking = attacking;
+		
+		currentFrame = animator.NextFrame ();
+	}
+
+
+	[SerializeField] float pct = 0f;
+	public void ApplyHits ()
+	{
 		if (hitsThisFrame.Count > 0) {
-			Hitbox best = hitsThisFrame[0];
+			Hitbox best = hitsThisFrame [0];
 			foreach (Hitbox hb in hitsThisFrame) {
 				if (hb.pct > best.pct) {
 					best = hb;
 				}
 			}
 			// Do the best one!
-			velocity += best.GetDirection();
-			hitsThisFrame.Clear();
+			velocity = best.GetDirection () * (1f + pct);
+			pct += best.pct/100f;
+			hitsThisFrame.Clear ();
 		}
 	}
-
-	public void DeliverHits() {
+	
+	public void DeliverHits ()
+	{
 		int i = 0;
-		foreach(ActiveCharacter otherCharacter in match.characters) {
+		foreach (ActiveCharacter otherCharacter in match.characters) {
 			if (otherCharacter == this)
 				continue;
-			foreach(Hitbox hitbox in currentFrame.hitboxes) {
-				foreach(Hurtbox hurtbox in otherCharacter.currentFrame.hurtboxes) {
-					if (hitbox.myCollider.bounds.Intersects(hurtbox.myCollider.bounds)) {
-						otherCharacter.hitsThisFrame.Add(hitbox);
+			foreach (Hitbox hitbox in currentFrame.hitboxes) {
+				foreach (Hurtbox hurtbox in otherCharacter.currentFrame.hurtboxes) {
+					if (hitbox.myCollider.bounds.Intersects (hurtbox.myCollider.bounds)) {
+						otherCharacter.hitsThisFrame.Add (hitbox);
 					}
 				}
 			}
 		}
 	}
 
-	void Update() {
-		SetGroundedAndSnapToSurface();
-		attacking = false;
-
-		// Oh man, check if we can actually move!
-		velocity.x += controls.Horizontal() * HorizontalVelocity();
-
-		if (!animator.attacking) {
-			crouching = controls.Crouching();
-			if (crouching) {
-				velocity.x = 0;
-			}
-
-			if (controls.Jumping() && grounded) {
-				velocity.y = 6;
-			}
-
-			if (grounded && controls.Attacking()) {
-				attacking = true;
-			}
-		}
-
-		NormalizeVelocity();
-		transform.Translate(velocity*Time.deltaTime);
+	bool CanFastFall() {
+		return false;
 	}
 
-	float HorizontalVelocity() {
+	bool CanAttack(AnimationID cid) {
+		return grounded;
+	}
+
+	bool CanMove(AnimationID cid) {
+		return (cid != AnimationID.ATTACK) && (cid != AnimationID.CROUCH);
+	}
+	bool CanJump(AnimationID cid) {
 		if (grounded) {
-			return 5f;
+			return (cid != AnimationID.ATTACK);
 		} else {
-			return 1f;
+			// No air jumps for now
+			return false;
 		}
 	}
 
-	void SetGroundedAndSnapToSurface() {
+
+	bool IsLanding(AnimationID cid) {
+		return ((cid == AnimationID.FALL) || (cid == AnimationID.JUMP));
+	}
+		
+	void ApplyLandingLagAndTransitionAnimation(AnimationID cid) {
+		animator.StartAnimationOrNext(AnimationID.IDLE);
+	}
+
+	bool MidAttack(AnimationID cid) {
+		return cid == AnimationID.ATTACK;
+	}
+
+	SealedFrame AnimateToNextFrame(float dt) {
+		AnimationID cid = currentFrame.animation.id;
+		if (grounded && IsLanding(cid)) {
+			ApplyLandingLagAndTransitionAnimation(cid);
+		} else if (grounded) {
+			if (CanMove(cid)) {
+				velocity.x = LimitToMaxGroundedVelocity(velocity.x + controls.Horizontal () * GroundVelocity (dt));
+			}
+			if (MidAttack(cid)) {
+				//do nothing!
+			} else if (controls.Attacking() && CanAttack(cid)) {
+				// Do Ground Attack
+				return animator.StartAnimationOrNext(AnimationID.ATTACK);
+			} else if (controls.Jumping() && CanJump(cid)) {
+				velocity.y += 5f;
+				return animator.StartAnimationOrNext(AnimationID.JUMP);
+			} else if (controls.Crouching()) {
+				return animator.StartAnimationOrNext(AnimationID.CROUCH);
+			} else {
+				if (velocity.x != 0) {
+					if (controls.Horizontal() > 0) {
+						animator.SetFacing(Facing.RIGHT);
+					} else if (controls.Horizontal() < 0) {
+						animator.SetFacing(Facing.LEFT);
+					}
+				    return animator.StartAnimationOrNext(AnimationID.WALK);
+				} else {
+					return animator.StartAnimationOrNext(AnimationID.IDLE);
+				}
+			}
+		} else { // Airborne
+			// In the air, can always move.
+			velocity.x = LimitToMaxAirVelocity(velocity.x + controls.Horizontal () * AirVelocity(dt));
+
+			
+			if (controls.Attacking() && CanAttack(cid)) {
+				// Do Air Attack
+			} else if (controls.FastFall() && CanFastFall()) {
+				// FastFall
+			} else {
+				// Air Jump
+				if (controls.Jumping() && CanJump(cid)) {
+					velocity.y += 5f;
+				}
+				if (velocity.y > 0) {
+					return animator.StartAnimationOrNext(AnimationID.FALL);
+				} else {
+					return animator.StartAnimationOrNext(AnimationID.JUMP);
+				}
+			}
+		}
+		return animator.NextFrame();
+	}
+	
+	public void NextFrame (float dt)
+	{
+		SetGroundedAndSnapToSurface();
+		ApplyGravity();
+		currentFrame = AnimateToNextFrame(dt);
+		ApplyTraction();
+	}
+
+	public void Update() {
+		transform.Translate(velocity * Time.deltaTime);
+		SetGroundedAndSnapToSurface();
+	}
+			
+	float AirVelocity (float dt)
+	{
+		return dt*30f;
+	}
+
+	float GroundVelocity(float dt) {
+		return dt*30f;
+	}
+
+
+	void SetGroundedAndSnapToSurface ()
+	{
 		if (transform.position.y <= 0f) {
 			grounded = true;
-			transform.position = new Vector3(transform.position.x, 0f);
+			transform.position = new Vector3 (transform.position.x, 0f);
 			if (velocity.y < 0) {
 				velocity.y = 0;
 			}
 		} else {
 			grounded = false;
-			velocity.y -= 0.3f;
 		}
 	}
 
+	void ApplyGravity() {
+		velocity.y -= 0.3f;
+	}
 }

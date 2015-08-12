@@ -6,6 +6,7 @@ public abstract class CharacterController : MonoBehaviour {
 	public abstract bool Jumping();
 	public abstract bool Crouching();
 	public abstract bool Attacking ();
+	public bool FastFall () { return false; }
 
 	public class PlayerCharacterController : CharacterController {
 		public override float Horizontal() {
@@ -20,7 +21,7 @@ public abstract class CharacterController : MonoBehaviour {
 			return (Input.GetAxis("Vertical") < -0.5f);
 		}
 		public override bool Attacking() {
-			return (Input.GetKeyDown(KeyCode.K));
+			return (Input.GetKey(KeyCode.K));
 		}
 	}
 
