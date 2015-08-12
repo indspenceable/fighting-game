@@ -4,9 +4,10 @@ using System.Collections;
 public enum AnimationID {
 	IDLE,
 	CROUCH,
-	WALK,
+	DASH,
 	RUN,
 	JUMP,
 	FALL,
 	ATTACK,
+	TURNAROUND,
 }

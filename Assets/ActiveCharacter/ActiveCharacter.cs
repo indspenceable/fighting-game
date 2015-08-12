@@ -31,12 +31,13 @@ public class ActiveCharacter : MonoBehaviour
 		currentFrame;
 	List<Hitbox> hitsThisFrame = new List<Hitbox> ();
 	
-	void ApplyTraction ()
+	void ApplyTraction (AnimationID cid)
 	{
 		if (grounded &&
+			((cid != AnimationID.DASH && cid != AnimationID.RUN) || 
 		    (velocity.x > 0 && controls.Horizontal() <= 0 ||
-		    velocity.x < 0 && controls.Horizontal() >= 0)) {
-			velocity.x = velocity.x * (grounded ? 0.4f : 1f);
+		    velocity.x < 0 && controls.Horizontal() >= 0))) {
+			velocity.x = velocity.x * 0.4f;
 		}
 		if (Mathf.Abs (velocity.x) < 0.1f) {
 			velocity.x = 0f;
@@ -63,18 +64,7 @@ public class ActiveCharacter : MonoBehaviour
 		return currentVelocity;
 	}
 
-	public void NextFrames ()
-	{
-		//    animator.xv = velocity.x;
-		//    animator.yv = velocity.y;
-		//    animator.grounded = grounded;
-		//    animator.crouching = crouching;
-		//    animator.attacking = attacking;
-		
-		currentFrame = animator.NextFrame ();
-	}
-
-
+	// * Deal with Damage! *//
 	[SerializeField] float pct = 0f;
 	public void ApplyHits ()
 	{
@@ -146,9 +136,7 @@ public class ActiveCharacter : MonoBehaviour
 		if (grounded && IsLanding(cid)) {
 			ApplyLandingLagAndTransitionAnimation(cid);
 		} else if (grounded) {
-			if (CanMove(cid)) {
-				velocity.x = LimitToMaxGroundedVelocity(velocity.x + controls.Horizontal () * GroundVelocity (dt));
-			}
+			// When we're grounded, only apply movement in cases where we should
 			if (MidAttack(cid)) {
 				//do nothing!
 			} else if (controls.Attacking() && CanAttack(cid)) {
@@ -159,16 +147,40 @@ public class ActiveCharacter : MonoBehaviour
 				return animator.StartAnimationOrNext(AnimationID.JUMP);
 			} else if (controls.Crouching()) {
 				return animator.StartAnimationOrNext(AnimationID.CROUCH);
+			} else if (cid == AnimationID.TURNAROUND) {
+				// Woop
 			} else {
-				if (velocity.x != 0) {
-					if (controls.Horizontal() > 0) {
+				if (controls.Horizontal() > 0) {
+					if (animator.GetFacing() == Facing.RIGHT || velocity.x >= 0 || cid == AnimationID.DASH) {
+						if (cid == AnimationID.DASH && animator.GetFacing() == Facing.LEFT) {
+							// Hackity hack - jump to idle so we're forced to restart the dash animation.
+							animator.StartAnimationOrNext(AnimationID.IDLE);
+						}
 						animator.SetFacing(Facing.RIGHT);
-					} else if (controls.Horizontal() < 0) {
-						animator.SetFacing(Facing.LEFT);
+						velocity.x = LimitToMaxGroundedVelocity(velocity.x + controls.Horizontal () * GroundVelocity (dt));
+						return animator.StartAnimationOrNext(AnimationID.DASH, AnimationID.RUN);
+					} else {
+						
+						animator.SetFacing(Facing.RIGHT);
+						return animator.StartAnimationOrNext(AnimationID.TURNAROUND);
 					}
-				    return animator.StartAnimationOrNext(AnimationID.WALK);
+				} else if (controls.Horizontal() < 0) {
+					if (animator.GetFacing() == Facing.LEFT || velocity.x <= 0 || cid == AnimationID.DASH) {
+						if (cid == AnimationID.DASH && animator.GetFacing() == Facing.RIGHT) {
+							// Hackity hack - jump to idle so we're forced to restart the dash animation.
+							animator.StartAnimationOrNext(AnimationID.IDLE);
+						}
+						animator.SetFacing(Facing.LEFT);
+						velocity.x = LimitToMaxGroundedVelocity(velocity.x + controls.Horizontal () * GroundVelocity (dt));
+						return animator.StartAnimationOrNext(AnimationID.DASH, AnimationID.RUN);
+					} else {
+						animator.SetFacing(Facing.LEFT);
+						return animator.StartAnimationOrNext(AnimationID.TURNAROUND);
+					}
 				} else {
-					return animator.StartAnimationOrNext(AnimationID.IDLE);
+					if (cid == AnimationID.RUN) {
+						return animator.StartAnimationOrNext(AnimationID.IDLE);
+					}
 				}
 			}
 		} else { // Airborne
@@ -200,7 +212,7 @@ public class ActiveCharacter : MonoBehaviour
 		SetGroundedAndSnapToSurface();
 		ApplyGravity();
 		currentFrame = AnimateToNextFrame(dt);
-		ApplyTraction();
+		ApplyTraction(currentFrame.animation.id);
 	}
 
 	public void Update() {
@@ -214,7 +226,7 @@ public class ActiveCharacter : MonoBehaviour
 	}
 
 	float GroundVelocity(float dt) {
-		return dt*30f;
+		return dt*9999;
 	}
 
 

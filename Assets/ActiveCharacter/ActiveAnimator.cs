@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class ActiveAnimator : MonoBehaviour {
-	bool flipped = false;
+	bool flipped = true;
 	void Flip(){
 		// Switch the way the player is labelled as facing
 		flipped = !flipped;
@@ -14,9 +14,11 @@ public class ActiveAnimator : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 	public bool IsFlipped() {
-		return flipped;
+		return !flipped;
 	}
-
+	public Facing GetFacing() {
+		return direction;
+	}
 
 	private Dictionary<AnimationID, SealedAnimation> animationIDToAnimationObject;
 	public void Add(AnimationID id, SealedAnimation sa) {
@@ -28,9 +30,10 @@ public class ActiveAnimator : MonoBehaviour {
 
 	[SerializeField] AnimationID currentAnimation;
 	[SerializeField] int currentFrame;
-	public SealedFrame StartAnimationOrNext(AnimationID animationId, bool force=false) {
+	public SealedFrame StartAnimationOrNext(AnimationID animationId, AnimationID? backup=null) {
 		DisableCurrentFrame();
-		if (currentAnimation != animationId || force) {
+		
+		if (currentAnimation != animationId && (!backup.HasValue || backup.Value != currentAnimation) ) {
 			currentAnimation = animationId;
 			currentFrame = 0;
 			FlipIfNeeded();

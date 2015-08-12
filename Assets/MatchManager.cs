@@ -42,7 +42,7 @@ public class MatchManager : MonoBehaviour
 	}
 
 
-	float TICK = 1f/20f;
+	[SerializeField] float TICK = 1f/20f;
 	float dt = 0f;
 	void Update()
 	{
