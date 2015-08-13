@@ -119,15 +119,19 @@ public class CharacterEditor : EditorWindow {
 		animation.gameObject.SetActive(true);
 
 		EditorGUILayout.BeginHorizontal();
+
+
 		List<AnimationID> idsArray = new List<AnimationID>(Enum.GetValues(typeof(AnimationID)).Cast<AnimationID>().ToArray());
 		int animationID = idsArray.IndexOf(animation.followingAnimation);
-		EditorGUILayout.LabelField("Transition to:");
-		int newID = EditorGUILayout.Popup(animationID, idsArray.Select (id => id.ToString()).ToArray());
+		int newID = EditorGUILayout.Popup("Transition to:", animationID, idsArray.Select (id => id.ToString()).ToArray());
 
 		animation.followingAnimation = idsArray[newID];
 		if (animation.followingAnimation == animation.id) {
 			animation.loopBackFrame = EditorGUILayout.IntField("Loop back to: ", animation.loopBackFrame);
 		}
+
+		animation.ticksPerFrame = EditorGUILayout.IntField ("Ticks Per Frame", animation.ticksPerFrame);
+
 		EditorGUILayout.EndHorizontal();
 		RenderAnimationControlsBar(animation.GetFrames().Count);
 		RenderAnimationFrames();

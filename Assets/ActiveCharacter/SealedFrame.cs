@@ -7,4 +7,10 @@ public class SealedFrame : MonoBehaviour {
 	public Hitbox[] hitboxes;
 	public Hurtbox[] hurtboxes;
 	public SpriteRenderer[] sprites;
+
+	public void SetupHitboxes() {
+		foreach(Hitbox hb in hitboxes) {
+			hb.Setup();
+		}
+	}
 }

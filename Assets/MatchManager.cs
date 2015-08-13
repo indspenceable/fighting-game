@@ -14,6 +14,9 @@ public class MatchManager : MonoBehaviour
 
 	void Start ()
 	{
+		QualitySettings.vSyncCount = 0;  // VSync must be disabled
+		Application.targetFrameRate = -1;
+		
 		characters = new List<ActiveCharacter> ();
 		if (playerCharacterToSpawn != null) {
 			ActiveCharacter ac = SpawnCharacter<CharacterController.PlayerCharacterController> (this, playerCharacterToSpawn);
@@ -30,25 +33,36 @@ public class MatchManager : MonoBehaviour
 
 	Queue<float> Deltas = new Queue<float>();
 	void OnDrawGizmos() {
-//		float x = 0f;
-//		Gizmos.color = Color.red;
-//		foreach(float f in Deltas) {
-//			Camera camera = Camera.current;
-//			Vector3 start = camera.ViewportToWorldPoint(new Vector3(x, 0f, camera.nearClipPlane));
-//			Vector3 ending = camera.ViewportToWorldPoint(new Vector3(x, f, camera.nearClipPlane));
-//			Gizmos.DrawLine(start, ending);
-//			x+=0.001f;
-//		}
+		float x = 0f;
+
+		foreach(float f in Deltas) {
+			Camera camera = Camera.current;
+			if (f > TICK) {
+				Gizmos.color = Color.red;
+			} else {
+				Gizmos.color = Color.green;
+			}
+			Vector3 start = camera.ViewportToWorldPoint(new Vector3(x, 0f, camera.nearClipPlane));
+			Vector3 ending = camera.ViewportToWorldPoint(new Vector3(x, f, camera.nearClipPlane));
+			Gizmos.DrawLine(start, ending);
+			x+=0.001f;
+		}
 	}
 
 
 	[SerializeField] float TICK = 1f/20f;
 	float dt = 0f;
+	float LAST_DT;
 	void Update()
 	{
-		Deltas.Enqueue(Time.deltaTime);
+		if (Deltas.Count > 100) {
+			Deltas.Dequeue();
+		}
 		dt += Time.deltaTime;
 		if (dt > TICK) {
+			Deltas.Enqueue(Time.time - LAST_DT);
+			LAST_DT = Time.time;
+
 			dt -= TICK;
 			foreach (ActiveCharacter ac in characters) {
 				ac.NextFrame(Time.fixedDeltaTime);
@@ -58,6 +72,10 @@ public class MatchManager : MonoBehaviour
 			}
 			foreach (ActiveCharacter ac in characters) {
 				ac.ApplyHits();
+			}
+
+			foreach (ActiveCharacter ac in characters) {
+				ac.ReduceHitlag();
 			}
 		}
 	}
@@ -78,7 +96,7 @@ public class MatchManager : MonoBehaviour
 		foreach (AnimationID id in Enum.GetValues(typeof(AnimationID)).Cast<AnimationID>()) {
 			CharacterAnimation animation = characterDefinition.GetAnimation (id);
 			SealedAnimation sa = AnimationFromStatic (animation);
-			sa.frames = animation.GetFrames ().Select (f => FrameToStatic (sa, f)).ToArray ();
+			sa.SetFrames(animation.GetFrames ().Select (f => FrameToStatic (sa, f)).ToArray ());
 			Destroy (animation);
 			ac.GetComponent<ActiveAnimator> ().Add (id, sa);
 		}
@@ -93,6 +111,7 @@ public class MatchManager : MonoBehaviour
 		sealedAnimation.loopBackFrame = characterAnimation.loopBackFrame;
 		sealedAnimation.id = characterAnimation.id;
 		sealedAnimation.followingAnimation = characterAnimation.followingAnimation;
+		sealedAnimation.ticksPerFrame = characterAnimation.ticksPerFrame;
 		return sealedAnimation;
 	}
 

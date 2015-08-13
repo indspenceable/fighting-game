@@ -53,7 +53,7 @@ public class ActiveAnimator : MonoBehaviour {
 	public SealedFrame NextFrame() {
 		DisableCurrentFrame();
 		SealedAnimation sa = GetAnimationById(currentAnimation);
-		int numberOfFrames = sa.frames.Length;
+		int numberOfFrames = sa.NumberOfFrames();
 		if (currentFrame + 1 == numberOfFrames) {
 			if (sa.followingAnimation == sa.id) {
 				currentFrame = sa.loopBackFrame;
@@ -75,7 +75,7 @@ public class ActiveAnimator : MonoBehaviour {
 
 	private SealedFrame GetCurrentFrame() {
 		SealedAnimation sa = GetAnimationById(currentAnimation);
-		return sa.frames[currentFrame];
+		return sa.GetFrame(currentFrame);
 	}
 
 	private AnimationID CurrentAnimation() {
@@ -85,10 +85,7 @@ public class ActiveAnimator : MonoBehaviour {
 
 	public void EnableAllAnimations() {
 		foreach (SealedAnimation sa in animationIDToAnimationObject.Values) {
-			sa.gameObject.SetActive(true);
-			foreach(SealedFrame sf in sa.frames) {
-				sf.gameObject.SetActive(false);
-			}
+			sa.MakeMeActive();
 		}
 	}
 

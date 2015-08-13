@@ -7,6 +7,7 @@ public class CharacterAnimation : MonoBehaviour {
 	public AnimationID id;
 	public int loopBackFrame = 0;
 	public AnimationID followingAnimation;
+	public int ticksPerFrame = 1;
 
 	public List<Frame> GetFrames() {
 		List<Frame> frames = new List<Frame>(GetComponentsInChildren<Frame>(true).OrderBy(f => f.index));

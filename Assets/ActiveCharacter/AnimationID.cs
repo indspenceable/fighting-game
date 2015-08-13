@@ -9,5 +9,7 @@ public enum AnimationID {
 	JUMP,
 	FALL,
 	ATTACK,
-	TURNAROUND,
+	PIVOT,
+	UNCROUCH,
+	SKID,
 }

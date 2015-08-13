@@ -7,17 +7,19 @@ public class Hitbox : MonoBehaviour {
 	public float pct;
 	[SerializeField] Vector2 Direction;
 	ActiveAnimator animator;
+	ActiveCharacter character;
 
 	public BoxCollider2D myCollider;
-	void Start() {
+	public void Setup() {
 		myCollider = GetComponent<BoxCollider2D>();
+		character = GetComponentInParent<ActiveCharacter>();
 		animator = GetComponentInParent<ActiveAnimator>();
 	}
 
 
 	void OnDrawGizmos() {
 		if (myCollider == null) {
-			Start();
+			Setup();
 		}
 		Gizmos.color = Color.red;
 		
@@ -45,5 +47,9 @@ public class Hitbox : MonoBehaviour {
 			direction.x *= -1;
 		}
 		return direction;
+	}
+
+	public void ApplyHitlag() {
+		character.AddHitlag(10);
 	}
 }
