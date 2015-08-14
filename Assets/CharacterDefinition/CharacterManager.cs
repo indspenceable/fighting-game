@@ -25,7 +25,7 @@ public class CharacterManager : MonoBehaviour {
 
 	// TODO
 	public List<CharacterDefinition> GetCharacters() { 
-		return new List<CharacterDefinition>(GetComponentsInChildren<CharacterDefinition>());
+		return new List<CharacterDefinition>(GetComponentsInChildren<CharacterDefinition>(true));
 	}
 
 	public void BuildEmptyCharacter() {

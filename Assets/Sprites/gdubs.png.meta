@@ -1,0 +1,3927 @@
+fileFormatVersion: 2
+guid: 94d89cef0d2de43b4ae781ffa879cf78
+timeCreated: 1439504248
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gdubs_0
+    21300002: gdubs_1
+    21300004: gdubs_2
+    21300006: gdubs_3
+    21300008: gdubs_4
+    21300010: gdubs_5
+    21300012: gdubs_6
+    21300014: gdubs_7
+    21300016: gdubs_8
+    21300018: gdubs_9
+    21300020: gdubs_10
+    21300022: gdubs_11
+    21300024: gdubs_12
+    21300026: gdubs_13
+    21300028: gdubs_14
+    21300030: gdubs_15
+    21300032: gdubs_16
+    21300034: gdubs_17
+    21300036: gdubs_18
+    21300038: gdubs_19
+    21300040: gdubs_20
+    21300042: gdubs_21
+    21300044: gdubs_22
+    21300046: gdubs_23
+    21300048: gdubs_24
+    21300050: gdubs_25
+    21300052: gdubs_26
+    21300054: gdubs_27
+    21300056: gdubs_28
+    21300058: gdubs_29
+    21300060: gdubs_30
+    21300062: gdubs_31
+    21300064: gdubs_32
+    21300066: gdubs_33
+    21300068: gdubs_34
+    21300070: gdubs_35
+    21300072: gdubs_36
+    21300074: gdubs_37
+    21300076: gdubs_38
+    21300078: gdubs_39
+    21300080: gdubs_40
+    21300082: gdubs_41
+    21300084: gdubs_42
+    21300086: gdubs_43
+    21300088: gdubs_44
+    21300090: gdubs_45
+    21300092: gdubs_46
+    21300094: gdubs_47
+    21300096: gdubs_48
+    21300098: gdubs_49
+    21300100: gdubs_50
+    21300102: gdubs_51
+    21300104: gdubs_52
+    21300106: gdubs_53
+    21300108: gdubs_54
+    21300110: gdubs_55
+    21300112: gdubs_56
+    21300114: gdubs_57
+    21300116: gdubs_58
+    21300118: gdubs_59
+    21300120: gdubs_60
+    21300122: gdubs_61
+    21300124: gdubs_62
+    21300126: gdubs_63
+    21300128: gdubs_64
+    21300130: gdubs_65
+    21300132: gdubs_66
+    21300134: gdubs_67
+    21300136: gdubs_68
+    21300138: gdubs_69
+    21300140: gdubs_70
+    21300142: gdubs_71
+    21300144: gdubs_72
+    21300146: gdubs_73
+    21300148: gdubs_74
+    21300150: gdubs_75
+    21300152: gdubs_76
+    21300154: gdubs_77
+    21300156: gdubs_78
+    21300158: gdubs_79
+    21300160: gdubs_80
+    21300162: gdubs_81
+    21300164: gdubs_82
+    21300166: gdubs_83
+    21300168: gdubs_84
+    21300170: gdubs_85
+    21300172: gdubs_86
+    21300174: gdubs_87
+    21300176: gdubs_88
+    21300178: gdubs_89
+    21300180: gdubs_90
+    21300182: gdubs_91
+    21300184: gdubs_92
+    21300186: gdubs_93
+    21300188: gdubs_94
+    21300190: gdubs_95
+    21300192: gdubs_96
+    21300194: gdubs_97
+    21300196: gdubs_98
+    21300198: gdubs_99
+    21300200: gdubs_100
+    21300202: gdubs_101
+    21300204: gdubs_102
+    21300206: gdubs_103
+    21300208: gdubs_104
+    21300210: gdubs_105
+    21300212: gdubs_106
+    21300214: gdubs_107
+    21300216: gdubs_108
+    21300218: gdubs_109
+    21300220: gdubs_110
+    21300222: gdubs_111
+    21300224: gdubs_112
+    21300226: gdubs_113
+    21300228: gdubs_114
+    21300230: gdubs_115
+    21300232: gdubs_116
+    21300234: gdubs_117
+    21300236: gdubs_118
+    21300238: gdubs_119
+    21300240: gdubs_120
+    21300242: gdubs_121
+    21300244: gdubs_122
+    21300246: gdubs_123
+    21300248: gdubs_124
+    21300250: gdubs_125
+    21300252: gdubs_126
+    21300254: gdubs_127
+    21300256: gdubs_128
+    21300258: gdubs_129
+    21300260: gdubs_130
+    21300262: gdubs_131
+    21300264: gdubs_132
+    21300266: gdubs_133
+    21300268: gdubs_134
+    21300270: gdubs_135
+    21300272: gdubs_136
+    21300274: gdubs_137
+    21300276: gdubs_138
+    21300278: gdubs_139
+    21300280: gdubs_140
+    21300282: gdubs_141
+    21300284: gdubs_142
+    21300286: gdubs_143
+    21300288: gdubs_144
+    21300290: gdubs_145
+    21300292: gdubs_146
+    21300294: gdubs_147
+    21300296: gdubs_148
+    21300298: gdubs_149
+    21300300: gdubs_150
+    21300302: gdubs_151
+    21300304: gdubs_152
+    21300306: gdubs_153
+    21300308: gdubs_154
+    21300310: gdubs_155
+    21300312: gdubs_156
+    21300314: gdubs_157
+    21300316: gdubs_158
+    21300318: gdubs_159
+    21300320: gdubs_160
+    21300322: gdubs_161
+    21300324: gdubs_162
+    21300326: gdubs_163
+    21300328: gdubs_164
+    21300330: gdubs_165
+    21300332: gdubs_166
+    21300334: gdubs_167
+    21300336: gdubs_168
+    21300338: gdubs_169
+    21300340: gdubs_170
+    21300342: gdubs_171
+    21300344: gdubs_172
+    21300346: gdubs_173
+    21300348: gdubs_174
+    21300350: gdubs_175
+    21300352: gdubs_176
+    21300354: gdubs_177
+    21300356: gdubs_178
+    21300358: gdubs_179
+    21300360: gdubs_180
+    21300362: gdubs_181
+    21300364: gdubs_182
+    21300366: gdubs_183
+    21300368: gdubs_184
+    21300370: gdubs_185
+    21300372: gdubs_186
+    21300374: gdubs_187
+    21300376: gdubs_188
+    21300378: gdubs_189
+    21300380: gdubs_190
+    21300382: gdubs_191
+    21300384: gdubs_192
+    21300386: gdubs_193
+    21300388: gdubs_194
+    21300390: gdubs_195
+    21300392: gdubs_196
+    21300394: gdubs_197
+    21300396: gdubs_198
+    21300398: gdubs_199
+    21300400: gdubs_200
+    21300402: gdubs_201
+    21300404: gdubs_202
+    21300406: gdubs_203
+    21300408: gdubs_204
+    21300410: gdubs_205
+    21300412: gdubs_206
+    21300414: gdubs_207
+    21300416: gdubs_208
+    21300418: gdubs_209
+    21300420: gdubs_210
+    21300422: gdubs_211
+    21300424: gdubs_212
+    21300426: gdubs_213
+    21300428: gdubs_214
+    21300430: gdubs_215
+    21300432: gdubs_216
+    21300434: gdubs_217
+    21300436: gdubs_218
+    21300438: gdubs_219
+    21300440: gdubs_220
+    21300442: gdubs_221
+    21300444: gdubs_222
+    21300446: gdubs_223
+    21300448: gdubs_224
+    21300450: gdubs_225
+    21300452: gdubs_226
+    21300454: gdubs_227
+    21300456: gdubs_228
+    21300458: gdubs_229
+    21300460: gdubs_230
+    21300462: gdubs_231
+    21300464: gdubs_232
+    21300466: gdubs_233
+    21300468: gdubs_234
+    21300470: gdubs_235
+    21300472: gdubs_236
+    21300474: gdubs_237
+    21300476: gdubs_238
+    21300478: gdubs_239
+    21300480: gdubs_240
+    21300482: gdubs_241
+    21300484: gdubs_242
+    21300486: gdubs_243
+    21300488: gdubs_244
+    21300490: gdubs_245
+    21300492: gdubs_246
+    21300494: gdubs_247
+    21300496: gdubs_248
+    21300498: gdubs_249
+    21300500: gdubs_250
+    21300502: gdubs_251
+    21300504: gdubs_252
+    21300506: gdubs_253
+    21300508: gdubs_254
+    21300510: gdubs_255
+    21300512: gdubs_256
+    21300514: gdubs_257
+    21300516: gdubs_258
+    21300518: gdubs_259
+    21300520: gdubs_260
+    21300522: gdubs_261
+    21300524: gdubs_262
+    21300526: gdubs_263
+    21300528: gdubs_264
+    21300530: gdubs_265
+    21300532: gdubs_266
+    21300534: gdubs_267
+    21300536: gdubs_268
+    21300538: gdubs_269
+    21300540: gdubs_270
+    21300542: gdubs_271
+    21300544: gdubs_272
+    21300546: gdubs_273
+    21300548: gdubs_274
+    21300550: gdubs_275
+    21300552: gdubs_276
+    21300554: gdubs_277
+    21300556: gdubs_278
+    21300558: gdubs_279
+    21300560: gdubs_280
+    21300562: gdubs_281
+    21300564: gdubs_282
+    21300566: gdubs_283
+    21300568: gdubs_284
+    21300570: gdubs_285
+    21300572: gdubs_286
+    21300574: gdubs_287
+    21300576: gdubs_288
+    21300578: gdubs_289
+    21300580: gdubs_290
+    21300582: gdubs_291
+    21300584: gdubs_292
+    21300586: gdubs_293
+    21300588: gdubs_294
+    21300590: gdubs_295
+    21300592: gdubs_296
+    21300594: gdubs_297
+    21300596: gdubs_298
+    21300598: gdubs_299
+    21300600: gdubs_300
+    21300602: gdubs_301
+    21300604: gdubs_302
+    21300606: gdubs_303
+    21300608: gdubs_304
+    21300610: gdubs_305
+    21300612: gdubs_306
+    21300614: gdubs_307
+    21300616: gdubs_308
+    21300618: gdubs_309
+    21300620: gdubs_310
+    21300622: gdubs_311
+    21300624: gdubs_312
+    21300626: gdubs_313
+    21300628: gdubs_314
+    21300630: gdubs_315
+    21300632: gdubs_316
+    21300634: gdubs_317
+    21300636: gdubs_318
+    21300638: gdubs_319
+    21300640: gdubs_320
+    21300642: gdubs_321
+    21300644: gdubs_322
+    21300646: gdubs_323
+    21300648: gdubs_324
+    21300650: gdubs_325
+    21300652: gdubs_326
+    21300654: gdubs_327
+    21300656: gdubs_328
+    21300658: gdubs_329
+    21300660: gdubs_330
+    21300662: gdubs_331
+    21300664: gdubs_332
+    21300666: gdubs_333
+    21300668: gdubs_334
+    21300670: gdubs_335
+    21300672: gdubs_336
+    21300674: gdubs_337
+    21300676: gdubs_338
+    21300678: gdubs_339
+    21300680: gdubs_340
+    21300682: gdubs_341
+    21300684: gdubs_342
+    21300686: gdubs_343
+    21300688: gdubs_344
+    21300690: gdubs_345
+    21300692: gdubs_346
+    21300694: gdubs_347
+    21300696: gdubs_348
+    21300698: gdubs_349
+    21300700: gdubs_350
+    21300702: gdubs_351
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: gdubs_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 991
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 989
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 989
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 989
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 989
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 989
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 989
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 989
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 998
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 998
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 998
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 998
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 994
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_13
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 994
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 994
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 994
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_16
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 989
+        width: 49
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 973
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 983
+        width: 57
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 971
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 971
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 976
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 932
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 936
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_24
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 930
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 938
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 935
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 935
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 935
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 935
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 932
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 932
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_32
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 930
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 931
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_34
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 928
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 928
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 928
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 928
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_38
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 925
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 925
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 900
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 924
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 923
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 903
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 903
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 900
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_46
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 900
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_47
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 900
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 898
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_50
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_51
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_52
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_53
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_54
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 903
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_57
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 903
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 898
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_59
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 898
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_60
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 893
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 893
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_62
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 867
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_63
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 893
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 883
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 868
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_66
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 868
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_67
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 868
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_68
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 868
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_69
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 868
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_70
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 868
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_71
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 867
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_72
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 867
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_73
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 867
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_74
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 866
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_75
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 867
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_76
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 867
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_77
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 868
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_78
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 868
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_79
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 867
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_80
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 861
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_81
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 856
+        width: 61
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_82
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 854
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_83
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 862
+        width: 53
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_84
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 849
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_85
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 834
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_86
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 856
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_87
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 835
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_88
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 831
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_89
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 856
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_90
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 834
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_91
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 834
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_92
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 834
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_93
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 834
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_94
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 834
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_95
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 823
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_96
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 810
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_97
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 827
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_98
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 828
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_99
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 826
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_100
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 810
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_101
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 821
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_102
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 804
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_103
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 803
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_104
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 803
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_105
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 810
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_106
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 810
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_107
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 810
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_108
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 810
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_109
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 796
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_110
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 801
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_111
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 790
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_112
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 769
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_113
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 776
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_114
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 774
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 773
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_116
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 773
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_117
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 767
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_118
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 767
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_119
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 767
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_120
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 767
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_121
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 767
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_122
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 767
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_123
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 783
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_124
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 769
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_125
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 767
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_126
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 742
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_127
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 742
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_128
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 740
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_129
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 739
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_130
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 736
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_131
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 734
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_132
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 734
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_133
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 730
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_134
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 734
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_135
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 734
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_136
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 733
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_137
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 687
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_138
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 729
+        width: 64
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_139
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 727
+        width: 57
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_140
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 726
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_141
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 687
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_143
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 723
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_144
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 722
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_145
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 719
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_146
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 720
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_147
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 718
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_148
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_149
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 687
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_150
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 683
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_151
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 683
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_152
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 683
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_153
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 683
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_154
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 704
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_155
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 683
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_156
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 688
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_157
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 687
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_158
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 685
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_159
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 694
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_160
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 658
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_161
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 657
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_162
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 656
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_163
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 656
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_164
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 658
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_165
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 656
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_166
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 656
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_167
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 658
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_168
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 649
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_169
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 647
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_170
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 647
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_171
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 612
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_172
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 610
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_173
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 609
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_174
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 609
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_175
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 609
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_176
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 618
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 615
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_178
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 615
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_179
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 615
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_180
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 617
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_181
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 615
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_182
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 618
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_183
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 615
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_184
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 609
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_185
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 610
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_186
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 609
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_187
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 599
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_188
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 603
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_189
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 601
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_190
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 604
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_191
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 602
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_192
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 601
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_193
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 591
+        width: 92
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_194
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 592
+        width: 92
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_195
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 567
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_196
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 567
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_197
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 567
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_198
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 567
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_199
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 583
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_200
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 584
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_201
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 584
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_202
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 585
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_203
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 569
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_204
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 568
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_205
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 561
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_206
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 548
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_207
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 548
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_208
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 548
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_209
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 548
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_210
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 548
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_211
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 548
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_212
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 557
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_213
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 548
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_214
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 518
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_215
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 517
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_216
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 516
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_217
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 516
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_218
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 524
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_219
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 511
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_220
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 511
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_221
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 511
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_222
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 511
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_223
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 511
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_224
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 511
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_225
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 506
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_226
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 511
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_227
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 506
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_228
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 477
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_229
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 500
+        width: 55
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_230
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 477
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_231
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 477
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_232
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 501
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_233
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 452
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_234
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 494
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_235
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 489
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_236
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 477
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_237
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 477
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_238
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 477
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_239
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 495
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_240
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 452
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_241
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 485
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_242
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 452
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_243
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 486
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_244
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 489
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_245
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 477
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_246
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 477
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_247
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 477
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_248
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 466
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_249
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 467
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_250
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 452
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_251
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 477
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_252
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 442
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_253
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 442
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_254
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 442
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_255
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 467
+        width: 81
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_256
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 453
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_257
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 453
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_258
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 453
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_259
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 442
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_260
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 442
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_261
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 442
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_262
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 442
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_263
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 442
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_264
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 396
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_265
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 428
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_266
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 427
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_267
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 405
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_268
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 431
+        width: 83
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_269
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 422
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_270
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 405
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_271
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 422
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_272
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 424
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_273
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 399
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_274
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 397
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_275
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 396
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_276
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 396
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_277
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 396
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_278
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 403
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_279
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 386
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_280
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 388
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_281
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 376
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_282
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 376
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_283
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 345
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_284
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 371
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_285
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 373
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_286
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 348
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_287
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 346
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_288
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 345
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_289
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 345
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_290
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 345
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_291
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 328
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_292
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 328
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_293
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 335
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_294
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 335
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_295
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 335
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_296
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 325
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_297
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 315
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_298
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 288
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_299
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 326
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_300
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 317
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_301
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 317
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_302
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 288
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_303
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 312
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_304
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 289
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_305
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 288
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_306
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 288
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_307
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 284
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_308
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 272
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_309
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 272
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_310
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 278
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_311
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 272
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_312
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 272
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_313
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 235
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_314
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 235
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_315
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_316
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 252
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_317
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 240
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_318
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 240
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_319
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 237
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_320
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 236
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_321
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 235
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_322
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_323
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 240
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_324
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_325
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 221
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_326
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 208
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_327
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 208
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_328
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 208
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_329
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 208
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_330
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 92
+        width: 145
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_331
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_332
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 46
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_333
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 63
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_334
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_335
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 99
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_336
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_337
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 76
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_338
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 86
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_339
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 69
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_340
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 69
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_341
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 57
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_342
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 46
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_343
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 46
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_344
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 66
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_345
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 48
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_346
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_347
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 46
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_348
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 31
+        width: 119
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_349
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 21
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_350
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 23
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gdubs_351
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 23
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

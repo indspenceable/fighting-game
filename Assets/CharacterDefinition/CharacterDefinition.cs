@@ -24,6 +24,7 @@ public class CharacterDefinition : MonoBehaviour {
 			anim = new GameObject(id.ToString()).AddComponent<CharacterAnimation>();
 			anim.transform.parent = transform;
 			anim.id = id;
+			anim.followingAnimation = id;
 		}
 		return anim;
 	}

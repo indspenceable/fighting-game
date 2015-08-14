@@ -31,6 +31,7 @@ public class CharacterEditor : EditorWindow {
 
 		RenderSelectCharacterBar();
 		GUILayout.Space(10f);
+
 		if (selectedCharacter != null) {
 			RenderSelectedCharacterDetails();
 			EnableAndDisableAnimationGameObjects();
@@ -64,6 +65,12 @@ public class CharacterEditor : EditorWindow {
 		}
 	}
 
+	void DisableAllCharactersExcept(CharacterDefinition except=null) {
+		foreach(CharacterDefinition c in CharacterManager.Instance().GetCharacters()) {
+			c.gameObject.SetActive(c == except);
+		}
+	}
+
 	void RenderSelectCharacterBar() {
 		List<CharacterDefinition> characters = CharacterManager.Instance().GetCharacters();
 		if (GUILayout.Button("New character")) {
@@ -72,6 +79,7 @@ public class CharacterEditor : EditorWindow {
 		EditorGUILayout.BeginHorizontal();
 		if (GUILayout.Button("---")) {
 			selectedCharacter = null;
+			DisableAllCharactersExcept();
 		}
 		foreach (CharacterDefinition c in characters) {
 			Color oldColor = GUI.color;
@@ -79,6 +87,7 @@ public class CharacterEditor : EditorWindow {
 				GUI.color = CURRENTLY_SELECTED_COLOR;
 			}
 			if (GUILayout.Button(c.CharacterName)) {
+				DisableAllCharactersExcept(c);
 				selectedCharacter = c;
 			}
 			GUI.color = oldColor;
