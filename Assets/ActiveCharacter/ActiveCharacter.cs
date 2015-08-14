@@ -164,7 +164,7 @@ public class ActiveCharacter : MonoBehaviour
 
 	SealedFrame AnimateToNextFrame (float dt)
 	{
-		AnimationID cid = currentFrame.animation.id;
+		AnimationID cid = currentFrame.mySealedAnimation.id;
 		if (grounded && IsLanding (cid)) {
 			ApplyLandingLagAndTransitionAnimation (cid);
 		} else if (grounded) {
@@ -252,7 +252,7 @@ public class ActiveCharacter : MonoBehaviour
 		SetGroundedAndSnapToSurface ();
 		ApplyGravity ();
 		currentFrame = AnimateToNextFrame (dt);
-		ApplyTraction (currentFrame.animation.id);
+		ApplyTraction (currentFrame.mySealedAnimation.id);
 		PhysicsUpdate ();
 	}
 

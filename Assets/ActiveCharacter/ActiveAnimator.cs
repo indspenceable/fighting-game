@@ -56,7 +56,7 @@ public class ActiveAnimator : MonoBehaviour {
 		int numberOfFrames = sa.NumberOfFrames();
 		if (currentFrame + 1 == numberOfFrames) {
 			if (sa.followingAnimation == sa.id) {
-				currentFrame = sa.loopBackFrame;
+				currentFrame = sa.loopBackFrame * sa.ticksPerFrame;
 			} else {
 				return StartAnimationOrNext(sa.followingAnimation);
 			}

@@ -12,10 +12,11 @@ public class MatchManager : MonoBehaviour
 	CharacterDefinition aiCharacterToSpawn;
 	public List<ActiveCharacter> characters;
 
+	[SerializeField] int FPS = 60;
 	void Start ()
 	{
 		QualitySettings.vSyncCount = 0;  // VSync must be disabled
-		Application.targetFrameRate = -1;
+		Application.targetFrameRate = FPS;
 		
 		characters = new List<ActiveCharacter> ();
 		if (playerCharacterToSpawn != null) {
@@ -30,53 +31,47 @@ public class MatchManager : MonoBehaviour
 		}
 	}
 
-
+#if UNITY_EDITOR
 	Queue<float> Deltas = new Queue<float>();
 	void OnDrawGizmos() {
-		float x = 0f;
-
-		foreach(float f in Deltas) {
-			Camera camera = Camera.current;
-			if (f > TICK) {
-				Gizmos.color = Color.red;
-			} else {
-				Gizmos.color = Color.green;
-			}
-			Vector3 start = camera.ViewportToWorldPoint(new Vector3(x, 0f, camera.nearClipPlane));
-			Vector3 ending = camera.ViewportToWorldPoint(new Vector3(x, f, camera.nearClipPlane));
-			Gizmos.DrawLine(start, ending);
-			x+=0.001f;
-		}
+//		float x = 0f;
+//
+//		foreach(float f in Deltas) {
+//			Camera camera = Camera.current;
+//			if (f-0.01f > 1/FPS) {
+//				Gizmos.color = Color.red;
+//			} else {
+//				Gizmos.color = Color.green;
+//			}
+//			Vector3 start = camera.ViewportToWorldPoint(new Vector3(x, 0f, camera.nearClipPlane));
+//			Vector3 ending = camera.ViewportToWorldPoint(new Vector3(x, f, camera.nearClipPlane));
+//			Gizmos.DrawLine(start, ending);
+//			x+=0.001f;
+//		}
 	}
-
-
-	[SerializeField] float TICK = 1f/20f;
-	float dt = 0f;
-	float LAST_DT;
-	void Update()
+#endif
+	
+	void FixedUpdate()
 	{
+#if UNITY_EDITOR
 		if (Deltas.Count > 100) {
 			Deltas.Dequeue();
 		}
-		dt += Time.deltaTime;
-		if (dt > TICK) {
-			Deltas.Enqueue(Time.time - LAST_DT);
-			LAST_DT = Time.time;
+		Deltas.Enqueue(Time.fixedDeltaTime);
+#endif
 
-			dt -= TICK;
-			foreach (ActiveCharacter ac in characters) {
-				ac.NextFrame(Time.fixedDeltaTime);
-			}
-			foreach (ActiveCharacter ac in characters) {
-				ac.DeliverHits();
-			}
-			foreach (ActiveCharacter ac in characters) {
-				ac.ApplyHits();
-			}
+		foreach (ActiveCharacter ac in characters) {
+			ac.NextFrame(Time.fixedDeltaTime);
+		}
+		foreach (ActiveCharacter ac in characters) {
+			ac.DeliverHits();
+		}
+		foreach (ActiveCharacter ac in characters) {
+			ac.ApplyHits();
+		}
 
-			foreach (ActiveCharacter ac in characters) {
-				ac.ReduceHitlag();
-			}
+		foreach (ActiveCharacter ac in characters) {
+			ac.ReduceHitlag();
 		}
 	}
 
@@ -122,7 +117,7 @@ public class MatchManager : MonoBehaviour
 		sf.hitboxes = f.GetHitboxes ().ToArray ();
 		sf.hurtboxes = f.GetHurtboxes ().ToArray ();
 		sf.sprites = f.GetSprites ().ToArray ();
-		sf.animation = animation;
+		sf.mySealedAnimation = animation;
 		foreach (Transform t in sf.GetComponentsInChildren<Transform>(true)) {
 			t.gameObject.SetActive (true);
 		}

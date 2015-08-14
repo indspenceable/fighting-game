@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SealedFrame : MonoBehaviour {
-	public SealedAnimation animation;
+	public SealedAnimation mySealedAnimation;
 	public FrameData data;
 	public Hitbox[] hitboxes;
 	public Hurtbox[] hurtboxes;
